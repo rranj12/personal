@@ -2,6 +2,7 @@
 .aidesigner/
 
 node_modules/
+dist/
 
 # Local tooling / editor
 .claude/
