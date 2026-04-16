@@ -1,0 +1,7 @@
+.aidesigner/*
+!.aidesigner/.gitkeep
+node_modules/
+.claude/
+.agents/
+.codex/
+.cursor/
