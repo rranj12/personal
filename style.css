@@ -118,6 +118,25 @@ html[data-theme="light"] .theme-toggle__icon--moon {
 nav a       { color: var(--muted); text-decoration: none; }
 nav a:hover { color: var(--text); }
 
+/* ── Placeholder pages (work / thoughts / reading) ── */
+.stub-msg {
+  margin-bottom: 1.6em;
+  max-width: 28em;
+}
+
+.stub-back {
+  margin-bottom: 48px;
+}
+
+.stub-back a {
+  text-decoration: none;
+}
+
+.stub-back a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--link-decoration-hover);
+}
+
 /* ── Portrait — square, center crop (top/bottom trimmed on tall photos) ── */
 .portrait {
   width: 128px;
