@@ -1,7 +1,16 @@
-.aidesigner/*
-!.aidesigner/.gitkeep
+# AIDesigner local artifacts
+.aidesigner/
+
 node_modules/
+
+# Local tooling / editor
 .claude/
 .agents/
 .codex/
 .cursor/
+
+# OS & misc
+.DS_Store
+*.log
+.env
+.env.*
