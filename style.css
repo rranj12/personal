@@ -251,6 +251,140 @@ blockquote {
   white-space: nowrap;
 }
 
+/* ── Project cards ── */
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-bottom: 48px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.project-media {
+  width: 100%;
+  background: #111;
+  border: 1px solid #222;
+  overflow: hidden;
+  position: relative;
+}
+
+html[data-theme="light"] .project-media {
+  background: #f0f0f0;
+  border-color: #ddd;
+}
+
+.project-media img {
+  width: 100%;
+  height: 260px;
+  display: block;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.project-media--placeholder {
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-media__label {
+  font-size: 11px;
+  color: #444;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+html[data-theme="light"] .project-media__label {
+  color: #bbb;
+}
+
+.project-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: 0.04em;
+  margin: 0;
+}
+
+.project-desc {
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.project-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.project-tag {
+  font-size: 11px;
+  color: var(--muted);
+  border: 1px solid #333;
+  padding: 2px 8px;
+  letter-spacing: 0.04em;
+}
+
+html[data-theme="light"] .project-tag {
+  border-color: #ccc;
+}
+
+.project-links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--muted);
+  border: 1px solid #3a3a3a;
+  border-radius: 20px;
+  padding: 4px 12px;
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+html[data-theme="light"] .project-link {
+  border-color: #c0c0c0;
+}
+
+.project-link:hover {
+  color: var(--text);
+  border-color: var(--muted);
+  text-decoration: none;
+}
+
+.project-link svg {
+  flex-shrink: 0;
+}
+
 /* ── SM (≥640px) ── */
 @media (min-width: 640px) {
   .wrapper { padding: 24px; }
