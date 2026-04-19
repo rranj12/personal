@@ -11,7 +11,6 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         work: resolve(__dirname, 'work.html'),
         thoughts: resolve(__dirname, 'thoughts.html'),
-        reading: resolve(__dirname, 'reading.html'),
       },
     },
   },

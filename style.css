@@ -118,7 +118,7 @@ html[data-theme="light"] .theme-toggle__icon--moon {
 nav a       { color: var(--muted); text-decoration: none; }
 nav a:hover { color: var(--text); }
 
-/* ── Placeholder pages (work / thoughts / reading) ── */
+/* ── Placeholder pages (work / thoughts) ── */
 .stub-msg {
   margin-bottom: 1.6em;
   max-width: 28em;
